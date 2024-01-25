@@ -159,7 +159,7 @@ section{
     align-items: center;
     justify-content: center;
     font-family: 'teko', sans-serif;
-    background-image: linear-gradient(rgba(138, 138, 138, 0.7), rgba(0,0,0,0.7)), url(../../../image/Mandelbrot.png);
+    background-image: url(../../../image/Mandelbrot.png);
 }
 
 h2{
