@@ -13,20 +13,20 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #462e52;
+  background-color: #000000;
   flex-direction: column;
 }
 
 .title {
   font-size: 38px;
-  color: #616161;
+  color: #fffcfc;
   font-style: italic;
   font-weight: 800;
 }
 
 .timeline {
   width: 100%;
-  background-color: #9621b0;
+  background-color: #363038;
   box-shadow: 0 5px 25px 5px rgba(0, 0, 0, 0.2);
 }
 .timeline .swiper-container {
