@@ -4,6 +4,9 @@
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <link href="https://fonts.googleapis.com/css2?family=Teko&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+      <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/css/swiper.min.css'>
+      <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800'><link rel="stylesheet" href="./style.css">
       <link rel="icon" type="image/svg" href="../../../../../../../image/favicon-docs.svg">
 
       <!--=============== REMIXICONS ===============-->
@@ -213,18 +216,61 @@
 
 
       <section>
-        <div class="section-content">
-            <h2>technology</h2>
-            <div class="line"></div>
-            <div class="title_1">Technologie</div>
-            <a href="#" class="ctn">En savoir plus</a>
-        </div>
+         <div class="container">
+           <h1 class="title">Histoire des Sciences</h1>
+           <div class="timeline">
+             <div class="swiper-container">
+               <div class="swiper-wrapper">
+                 <div class="swiper-slide" style="background-image: url(../../../../../../../image/bigbang.jpg)" data-year="-13,8Mrd">
+                   <div class="swiper-slide-content"><span class="timeline-year">-13,8Mrd</span>
+                     <h4 class="timeline-title">BIG BANG</h4>
+                     <p class="timeline-text">Pendant le Big Bang, l'univers a connu une expansion explosive à partir d'un état initial extrêmement dense et chaud, engendrant la formation ultérieure de matière, d'énergie et de structures cosmiques.</p>
+                   </div>
+                 </div>
+                 <div class="swiper-slide" style="background-image: url(../../../../../../../image/voie-lactée.jpeg)" data-year="-10Mrd">
+                   <div class="swiper-slide-content"><span class="timeline-year">-10Mrd</span>
+                     <h4 class="timeline-title">La naissance de notre galaxie : la "Voie Lactée"</h4>
+                     <p class="timeline-text">La Voie Lactée a absorbé la galaxie Gaïa-Encelade lors de leur collosion il y a 10 millards d'années.</p>
+                   </div>
+                 </div>
+                 <div class="swiper-slide" style="background-image: url(../../../../../../../image/Terre.jpg)" data-year="-4,6Mrd">
+                   <div class="swiper-slide-content"><span class="timeline-year">-4,6Mrd</span>
+                     <h4 class="timeline-title">La Terre</h4>
+                     <p class="timeline-text">La Terre s'est formée il y a 4,6Mrd d'années.</p>
+                   </div>
+                 </div>
+                 <div class="swiper-slide" style="background-image: url(../../../../../../../image/moon.png)" data-year="-4,51Mrd">
+                   <div class="swiper-slide-content"><span class="timeline-year">-4,51Mrd</span>
+                     <h4 class="timeline-title">La Lune</h4>
+                     <p class="timeline-text">La formation de la Lune remontait il y a environ 4,51 millards d'années. La Lune s'est formée à partir des débrits restants après un impact géant entre une proto-Terre et une protoplanète de la taille de Mars appelée "Théta".</p>
+                   </div>
+                 </div>
+                 <div class="swiper-slide" style="background-image: url(../../../../../../../image/ocean.jpg)" data-year="-4,41Mrd">
+                   <div class="swiper-slide-content"><span class="timeline-year">-4,41Mrd</span>
+                     <h4 class="timeline-title">L'apparition de l'eau</h4>
+                     <p class="timeline-text">La planète continue à se refroidir et les pluies conduisent probablement à la formation des Océans il y a 4,41 millards d'années.</p>
+                   </div>
+                 </div>
+                 <div class="swiper-slide" style="background-image: url(../../../../../../../image/org-uni.webp)" data-year="-4,28Mrd">
+                   <div class="swiper-slide-content"><span class="timeline-year">-4,28Mrd</span>
+                     <h4 class="timeline-title">Premiers signes de vie</h4>
+                     <p class="timeline-text">Les premiers êtres vivants sont des organismes unicellulaires comme le Blob ou les cyanobactéries.</p>
+                   </div>
+                 </div>
+               </div>
+               <div class="swiper-button-prev"></div>
+               <div class="swiper-button-next"></div>
+               <div class="swiper-pagination"></div>
+             </div>
+           </div>
+         </div>
       </section>
 
-      <script src"menu.js"></script>
+      
 
       
       <!--=============== MAIN JS ===============-->
       <script src="../../../../../../script.js"></script>
+      <script src"menu.js"></script>
    </body>
 </html>
