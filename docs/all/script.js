@@ -450,12 +450,6 @@ if ( $.fn.makisu.enabled ) {
         $( '.list' ).makisu( 'toggle' );
     });
 
-    // Disable all links
-
-    $( '.demo a' ).click( function( event ) {
-        event.preventDefault();
-    });
-
 } else {
 
     $( '.warning' ).show();
