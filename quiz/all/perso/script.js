@@ -16,8 +16,7 @@ const cardsElement = [];
 const cardsData = [
   
   {
-    question: "tenir, s'arrêter",
-    answer: "halten, er hält, hielt, hat gehalten",
+
   },
 ];
 // const cardsData = getCardsData();
