@@ -14,42 +14,7 @@ let currentActiveCard = 0;
 const cardsElement = [];
 
 const cardsData = [
-  {
-    question: "attraper, capturer",
-    answer: "fangen, er fängt, fing, hat gefangen",
-  },
-  {
-    question: "faire de l'éscrime",
-    answer: "fechten, er ficht, focht, hat gefochten",
-  },
-  {
-    question: "trouver",
-    answer: "finden, er findet, fand, hat gefunden",
-  },
-  {
-    question: "voler (oiseau, avion)",
-    answer: "fliegen, er fliegt, flog, ist geflogen",
-  },
-  {
-    question: "donner",
-    answer: "geben, er gibt, gab, hat gegeben",
-  },
-  {
-    question: "aller",
-    answer: "gehen, er geht, ging, ist gegangen",
-  },
-  {
-    question: "profiter de",
-    answer: "genießen, er genießt, genoss, hat genossen",
-  },
-  {
-    question: "gagner",
-    answer: "gewinnen, er gewinnt, gewann, hat gewonnen",
-  },
-  {
-    question: "verser",
-    answer: "gießen, er gießt, goss, hat gegossen",
-  },
+  
   {
     question: "tenir, s'arrêter",
     answer: "halten, er hält, hielt, hat gehalten",
