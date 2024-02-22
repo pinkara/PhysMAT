@@ -15,44 +15,44 @@ const cardsElement = [];
 
 const cardsData = [
   {
-    question: "cuire au four",
-    answer: "bäcken, er bäckt, backte, hat gebacken",
+    question: "attraper, capturer",
+    answer: "fangen, er fängt, fing, hat gefangen",
   },
   {
-    question: "commencer",
-    answer: "beginnen, er beginnt, begann, hat begonnen",
+    question: "faire de l'éscrime",
+    answer: "fechten, er ficht, focht, hat gefochten",
   },
   {
-    question: "rester",
-    answer: "bleiben, er bleibt, blieb, ist geblieben",
+    question: "trouver",
+    answer: "finden, er findet, fand, hat gefunden",
   },
   {
-    question: "briser",
-    answer: "brechen, er bricht, brach, hat gebrochen",
+    question: "voler (oiseau, avion)",
+    answer: "fliegen, er fliegt, flog, ist geflogen",
   },
   {
-    question: "brûler",
-    answer: "brennen, er brennt, brannte, hat gebrannt",
+    question: "donner",
+    answer: "geben, er gibt, gab, hat gegeben",
   },
   {
-    question: "apporter",
-    answer: "bringen, er bringt, brachte, hat gebracht",
+    question: "aller",
+    answer: "gehen, er geht, ging, ist gegangen",
   },
   {
-    question: "penser",
-    answer: "denken, er denkt, dachte, hat gedacht",
+    question: "profiter de",
+    answer: "genießen, er genießt, genoss, hat genossen",
   },
   {
-    question: "manger",
-    answer: "essen, er isst, aß, hat gegessen",
+    question: "gagner",
+    answer: "gewinnen, er gewinnt, gewann, hat gewonnen",
   },
   {
-    question: "aller (en véhicule)",
-    answer: "fahren, er fährt, fuhr, ist gefahren",
+    question: "verser",
+    answer: "gießen, er gießt, goss, hat gegossen",
   },
   {
-    question: "tomber",
-    answer: "fallen, er fällt, fiel, ist gefallen",
+    question: "tenir, s'arrêter",
+    answer: "halten, er hält, hielt, hat gehalten",
   },
 ];
 // const cardsData = getCardsData();
