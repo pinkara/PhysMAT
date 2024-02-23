@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="fr" >
+<head>
+  <meta charset="UTF-8">
+  <title>CookMAT</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css'>
+<link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css'><link rel="stylesheet" href="./style.css">
+<link rel="stylesheet" href="style2.css">
+<link href='https://fonts.googleapis.com/css?family=Days+One' rel='stylesheet' type='text/css'><link rel="stylesheet" href="./style.css">
+<link href="https://fonts.googleapis.com/css2?family=Teko&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+  <link rel="icon" type="image/svg" href="../../image/favicon-docs-cook.svg">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+
+<body>
+  <header class="header">
+    <nav class="nav container">
+       <div class="nav__data">
+          <a href="https://pinkara.github.io/PhysMAT/fr/menu/menu.html" class="nav__logo">
+               <img src="../../image/logo-cook.svg" class="logo">
+          </a>
+          
+          <div class="nav__toggle" id="nav-toggle">
+             <i class="ri-menu-line nav__burger"></i>
+             <i class="ri-close-line nav__close"></i>
+          </div>
+       </div>
+
+       <!--=============== NAV MENU ===============-->
+       <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+             <li><a href="https://pinkara.github.io/PhysMAT/fr/menu/menu.html" class="nav__link">Home</a></li>
+         
+
+             <!--=============== DROPDOWN 1 ===============-->
+             <li class="dropdown__item">
+                <div class="nav__link">
+                   Science <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                </div>
+
+                <ul class="dropdown__menu">
+                   <li>
+                      <a href="../../science/maths/maths.html" class="dropdown__link">
+                         <i class="ri-pencil-ruler-2-line"></i> Maths
+                      </a>                          
+                   </li>
+
+                   <li>
+                      <a href="../../science/phys/phys.html" class="dropdown__link">
+                         <i class="ri-flask-line"></i> Physique
+                      </a>
+                   </li>
+
+                   <li>
+                       <a href="../../science/svt/svt.html" class="dropdown__link">
+                          <i class="ri-earth-line"></i> Svt
+                       </a>
+                    </li>
+                    
+
+                   <!--=============== DROPDOWN SUBMENU ===============-->
+                   <li class="dropdown__subitem">
+                      <div class="dropdown__link">
+                         <i class=""></i> Autres <i class="ri-add-line dropdown__add"></i>
+                      </div>
+
+                      <ul class="dropdown__submenu">
+                         <li>
+                            <a href="../../science/autres/fonctions/fonctions.html" class="dropdown__sublink">
+                               <i class="ri-functions"></i> Fonctions
+                            </a>
+                         </li>
+ 
+                         <li>
+                            <a href="../../science/autres/formules/formuless.html" class="dropdown__sublink">
+                               <i class="ri-omega"></i> Formules
+                            </a>
+                         </li>
+                         <li>
+                           <a href="../../science/autres/theoremes/theoremes.html" class="dropdown__sublink">
+                              <i class="ri-pencil-ruler-2-fill"></i> Théorèmes
+                           </a>
+                        </li>
+                         <li>
+                            <a href="../../science/autres/hist-science/hist-science.html" class="dropdown__sublink">
+                               <i class="ri-calendar-2-line"></i> Histoire
+                            </a>
+                         </li>
+                      </ul>
+                   </li>
+                </ul>
+             </li>
+
+             <!--=============== DROPDOWN 2 ===============-->
+             <li class="dropdown__item">
+                <div class="nav__link">
+                   Langues <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                </div>
+
+                <ul class="dropdown__menu">
+                   <li>
+                      <a href="../../langues/fr/fr.html" class="dropdown__link">
+                         <i class=""></i> Français
+                      </a>                          
+                   </li>
+
+                   <li>
+                      <a href="../../langues/all/all.html" class="dropdown__link">
+                         <i class=""></i> Allemand
+                      </a>
+                   </li>
+                   <li>
+                       <a href="../../langues/esp/esp.html" class="dropdown__link">
+                          <i class=""></i> Espagnol
+                       </a>
+                    </li>
+                   <li>
+                      <a href="../../langues/angl/angl.html" class="dropdown__link">
+                         <i class=""></i> Anglais
+                      </a>
+                   </li>
+                   <li>
+                      <a href="../../langues/lat/lat.html" class="dropdown__link">
+                         <i class=""></i> Latin
+                      </a>
+                   </li>
+                </ul>
+             </li>
+
+                   <!--=============== DROPDOWN 3 ===============-->
+
+             <li class="dropdown__item">
+               <div class="nav__link">
+                  Divers <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+               </div>
+
+               <ul class="dropdown__menu">
+                  <li class="dropdown__subitem">
+                      <div class="dropdown__link">
+                         <i class=""></i> Hist-Geo-EMC <i class="ri-add-line dropdown__add"></i>
+                      </div>
+
+                      <ul class="dropdown__submenu">
+                         <li>
+                            <a href="../Hist-Geo-EMC/hist/hist.html" class="dropdown__sublink">
+                               <i class="ri-calendar-todo-fill"></i> Histoire
+                            </a>
+                         </li>
+ 
+                         <li>
+                            <a href="../Hist-Geo-EMC/geo/geo.html" class="dropdown__sublink">
+                               <i class="ri-compass-3-line"></i> Géographie
+                            </a>
+                         </li>
+                         <li>
+                           <a href="../Hist-Geo-EMC/EMC/emc.html" class="dropdown__sublink">
+                              <i class="ri-map-line"></i> EMC
+                           </a>
+                        </li>
+                      </ul>
+                   </li>
+
+                  <li>
+                     <a href="techno.html" class="dropdown__link">
+                        <i class="ri-code-box-line"></i> Technologie
+                     </a>
+                  </li>
+
+                  <li>
+                     <a href="../cuisine/cuisine.html" class="dropdown__link">
+                        <i class="ri-cake-3-line"></i> Cuisine
+                     </a>
+                  </li>
+                  <li>
+                   <a href="../kanji/kanji.html" class="dropdown__link">
+                      <i class="ri-wubi-input"></i> Kanji
+                   </a>
+                </li>
+                  <li>
+                   <a href="../art/art.html" class="dropdown__link">
+                      <i class="ri-presentation-line"></i> Arts
+                   </a>
+                </li>
+               </ul>
+            </li>
+
+
+             <li class="dropdown__item">
+                <div class="nav__link">
+                   <i class="ri-translate-2"></i>
+                </div>
+
+                <ul class="dropdown__menu">
+                   <li>
+                      <a href="techno.html" class="dropdown__link">
+                         <i class=""></i> 🇫🇷
+                      </a>                          
+                   </li>
+
+                   <li>
+                      <a href="../../../jp/divers/techno/techno_jp.html" class="dropdown__link">
+                         <i class=""></i> 🇯🇵
+                      </a>
+                   </li>
+                </ul>
+             </li>
+          </ul>
+          
+       </div>
+    </nav>
+ </header>
+ <section>
+  <div class="recipe-container">
+    <h1>Les Desserts</h1>
+    <div class="swiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide post">
+          <img
+            class="post-img"
+            src="../../image/cheesecake.jpg"
+            alt="recipe" />
+
+          <div class="post-body">
+            <img
+              class="post-avatar"
+              src="https://avatars.githubusercontent.com/u/112808060?v=4"
+              alt="avatar" />
+            <div class="post-detail">
+              <h2 class="post-name">Cheesecake</h2>
+              <p class="post-author">Pinkara</p>
+            </div>
+
+            <div class="post-actions">
+              <button
+                class="post-actions-controller"
+                data-target="post1"
+                aria-controls="post-actions-content"
+                aria-expanded="false">
+                <i class="fa-solid fa-ellipsis fa-2xl"></i>
+              </button>
+              <div
+                class="post-actions-content"
+                id="post1"
+                data-visible="false"
+                aria-hidden="true">
+                <ul role="list" class="grid-flow" data-spacing="small">
+                  <li>
+                    <a class="post-actions-link" href="#">
+                      <i class="fa-solid fa-eye"></i>
+                      <span>Show the Recipe</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-slide post">
+          <img class="post-img" src="https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/7443d18f-26b6-47eb-bfca-541fb72cee65" alt="recipe" />
+
+          <div class="post-body">
+            <img
+              class="post-avatar"
+              src="https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/3c7b6ef9-cd2d-4d70-819a-2aa9c2309083"
+              alt="avatar" />
+            <div class="post-detail">
+              <h2 class="post-name">Pancake</h2>
+              <p class="post-author">Ethan Wilson</p>
+            </div>
+
+            <div class="post-actions">
+              <button
+                class="post-actions-controller"
+                data-target="post2"
+                aria-controls="post-actions-content"
+                aria-expanded="false">
+                <i class="fa-solid fa-ellipsis fa-2xl"></i>
+              </button>
+              <div
+                class="post-actions-content"
+                id="post2"
+                data-visible="false"
+                aria-hidden="true">
+                <ul role="list" class="grid-flow" data-spacing="small">
+                  <li>
+                    <a class="post-actions-link" href="#">
+                      <i class="fa-solid fa-eye"></i>
+                      <span>Show the Recipe</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-slide post">
+          <img class="post-img" src="https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/24566dbf-61a2-4bd0-bb29-ef1773364eba" alt="recipe" />
+
+          <div class="post-body">
+            <img
+              class="post-avatar"
+              src="https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/01332597-5aeb-483b-b682-9379c6ed8f14"
+              alt="avatar" />
+            <div class="post-detail">
+              <h2 class="post-name">Macaron</h2>
+              <p class="post-author">Bella Smith</p>
+            </div>
+
+            <div class="post-actions">
+              <button
+                class="post-actions-controller"
+                data-target="post3"
+                aria-controls="post-actions-content"
+                aria-expanded="false">
+                <i class="fa-solid fa-ellipsis fa-2xl"></i>
+              </button>
+              <div
+                class="post-actions-content"
+                id="post3"
+                data-visible="false"
+                aria-hidden="true">
+                <ul role="list" class="grid-flow" data-spacing="small">
+                  <li>
+                    <a class="post-actions-link" href="#">
+                      <i class="fa-solid fa-eye"></i>
+                      <span>Show the Recipe</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-slide post">
+          <img
+            class="post-img"
+            src="https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/a208eb17-a847-4e04-be2c-d7ec2071ae45"
+            alt="recipe" />
+
+          <div class="post-body">
+            <img class="post-avatar" src="https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/b9f5ef94-c2c9-4792-b7a3-593d393f2c84" alt="avatar" />
+            <div class="post-detail">
+              <h2 class="post-name">Cheesecake</h2>
+              <p class="post-author">Mia Dixon</p>
+            </div>
+
+            <div class="post-actions">
+              <button
+                class="post-actions-controller"
+                data-target="post4"
+                aria-controls="post-actions-content"
+                aria-expanded="false">
+                <i class="fa-solid fa-ellipsis fa-2xl"></i>
+              </button>
+              <div
+                class="post-actions-content"
+                id="post4"
+                data-visible="false"
+                aria-hidden="true">
+                <ul role="list" class="grid-flow" data-spacing="small">
+                  <li>
+                    <a class="post-actions-link" href="javascript:void(0)">
+                      <i class="fa-solid fa-eye"></i>
+                      <span>Show the Recipe</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-slide post">
+          <img class="post-img" src="https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/208fe8f5-9d7f-4b83-9249-43601bb4c500" alt="recipe" />
+
+          <div class="post-body">
+            <img
+              class="post-avatar"
+              src="https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/58f9319c-78cf-444b-ba71-701c506c2dd3"
+              alt="avatar" />
+            <div class="post-detail">
+              <h2 class="post-name">Donuts</h2>
+              <p class="post-author">Olivia Martinez</p>
+            </div>
+
+            <div class="post-actions">
+              <button
+                class="post-actions-controller"
+                data-target="post5"
+                aria-controls="post-actions-content"
+                aria-expanded="false">
+                <i class="fa-solid fa-ellipsis fa-2xl"></i>
+              </button>
+              <div
+                class="post-actions-content"
+                id="post5"
+                data-visible="false"
+                aria-hidden="true">
+                <ul role="list" class="grid-flow" data-spacing="small">
+                  <li>
+                    <a class="post-actions-link" href="javascript:void(0)">
+                      <i class="fa-solid fa-eye"></i>
+                      <span>Show the Recipe</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-slide post">
+          <img
+            class="post-img"
+            src="https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/e4f91d6d-ee11-4ff7-9e6f-0fb3f9a78598"
+            alt="recipe" />
+
+          <div class="post-body">
+            <img
+              class="post-avatar"
+              src="https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/24ca2eec-a5ba-4c32-907c-ffffca203e1c"
+              alt="avatar" />
+            <div class="post-detail">
+              <h2 class="post-name">Rolo Cheesecake</h2>
+              <p class="post-author">Benjamin Clark</p>
+            </div>
+
+            <div class="post-actions">
+              <button
+                class="post-actions-controller"
+                data-target="post6"
+                aria-controls="post-actions-content"
+                aria-expanded="false">
+                <i class="fa-solid fa-ellipsis fa-2xl"></i>
+              </button>
+              <div
+                class="post-actions-content"
+                id="post6"
+                data-visible="false"
+                aria-hidden="true">
+                <ul role="list" class="grid-flow" data-spacing="small">
+                  <li>
+                    <a class="post-actions-link" href="javascript:void(0)">
+                      <i class="fa-solid fa-eye"></i>
+                      <span>Show the Recipe</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-scrollbar"></div>
+    </div>
+  </div>
+</section>
+  </body>
+<!-- partial -->
+  <script src='https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js'></script><script  src="./script.js"></script>
+  <script src ="../../script.js"></script>
+</body>
+</html>
