@@ -1,0 +1,23 @@
+/* Styles pour le thème light */
+body.light {
+    background-color: #faf5f8 !important;
+    color: #333 !important;
+}
+
+/* Styles pour le thème dark */
+body.dark {
+    background-color: #3b3b3b !important;
+    color: #f9f9f9 !important;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+i {
+    margin-right: 5px;  /* Ajustez l'espacement entre le texte et l'icône si nécessaire */
+}
