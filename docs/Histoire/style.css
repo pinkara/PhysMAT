@@ -31,14 +31,14 @@ body {
   background-position: center top;
 }
 .carousel .carousel-inner .bg2 {
-  background-image: url('https://www.lepoint.fr/images/2013/08/23/guerre-1692571-jpg_1663099_1250x625.JPG');
+  background-image: url('../../image/Front-pop.jpeg');
   background-position: center center;
 }
 .carousel .carousel-inner .bg3 {
-  background-image: url('https://s.rfi.fr/media/display/0514df5e-1a1e-11ec-8af1-005056a90284/w:980/p:16x9/GettyImages-542356737_grandes-dates-2GM_2480px.jpg');
+  background-image: url('../../image/2GM.jpeg');
   background-position: center bottom;
 }
 .carousel .carousel-inner .bg4 {
-  background-image: url('https://static1.assistancescolaire.com/col/images/3hcf0301.png');
+  background-image: url('../../image/1GM.jpeg');
   background-position: center bottom;
 }
