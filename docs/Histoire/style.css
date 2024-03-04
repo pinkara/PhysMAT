@@ -26,8 +26,8 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
-.carousel .carousel-inner .bg1 active {
-  background-image: url('../../image/Font-pop.svg');
+.carousel .carousel-inner .bg1 {
+  background-image: url('https://raw.githubusercontent.com/pinkara/PhysMAT/eb098515c0059b3ff3d066641ab93778952b5d4b/image/Front-pop.svg');
   background-position: center top;
 }
 .carousel .carousel-inner .bg2 {
@@ -35,10 +35,10 @@ body {
   background-position: center center;
 }
 .carousel .carousel-inner .bg3 {
-  background-image: url('../../image/2GM.svg');
+  background-image: url('https://raw.githubusercontent.com/pinkara/PhysMAT/32638d1032c46f52182a38868e6152f24906e24d/image/2GM.svg');
   background-position: center bottom;
 }
 .carousel .carousel-inner .bg4 {
-  background-image: url('../../image/1GM.svg');
+  background-image: url('https://raw.githubusercontent.com/pinkara/PhysMAT/32638d1032c46f52182a38868e6152f24906e24d/image/1GM.svg');
   background-position: center bottom;
 }
