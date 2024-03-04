@@ -27,7 +27,7 @@ body {
   background-size: cover;
 }
 .carousel .carousel-inner .bg1 {
-  background-image: url('https://img-4.linternaute.com/86B242kfdH3hqmMtfLFo_9wBD8k=/1500x/smart/3136896be6f2432a926afe8c01f38cab/ccmcms-linternaute/33102805.jpg');
+  background-image: url('../../image/Font-Pop.svg');
   background-position: center top;
 }
 .carousel .carousel-inner .bg2 {
@@ -35,10 +35,10 @@ body {
   background-position: center center;
 }
 .carousel .carousel-inner .bg3 {
-  background-image: url('../../image/2GM.jpeg');
+  background-image: url('../../image/2GM.svg');
   background-position: center bottom;
 }
 .carousel .carousel-inner .bg4 {
-  background-image: url('../../image/1GM.jpeg');
+  background-image: url('../../image/1GM.svg');
   background-position: center bottom;
 }
