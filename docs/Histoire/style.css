@@ -27,11 +27,11 @@ body {
   background-size: cover;
 }
 .carousel .carousel-inner .bg1 {
-  background-image: url('');
+  background-image: url('https://img-4.linternaute.com/86B242kfdH3hqmMtfLFo_9wBD8k=/1500x/smart/3136896be6f2432a926afe8c01f38cab/ccmcms-linternaute/33102805.jpg');
   background-position: center top;
 }
 .carousel .carousel-inner .bg2 {
-  background-image: url('https://img-4.linternaute.com/86B242kfdH3hqmMtfLFo_9wBD8k=/1500x/smart/3136896be6f2432a926afe8c01f38cab/ccmcms-linternaute/33102805.jpg');
+  background-image: url('');
   background-position: center center;
 }
 .carousel .carousel-inner .bg3 {
