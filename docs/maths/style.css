@@ -27,19 +27,19 @@ body {
   background-size: cover;
 }
 .carousel .carousel-inner .bg1 {
-  background-image: url('../../image/approxi_sqrt.svg');
+  background-image: url('../../image/carousel_prime_number.svg');
   background-position: center top;
 }
 .carousel .carousel-inner .bg2 {
-  background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/158072/hearthand.jpg');
+  background-image: url('../../image/carousel_crit_div.svg');
   background-position: center center;
 }
 .carousel .carousel-inner .bg3 {
-  background-image: url('../../image/doomsday.svg');
+  background-image: url('../../image/carousel_doomsday.svg');
   background-position: center bottom;
 }
 .carousel .carousel-inner .bg4 {
-  background-image: url('../../image/calculs-indiens.svg');
+  background-image: url('../../image/carousel_calcul-indien.svg');
   background-position: center bottom;
 }
 
