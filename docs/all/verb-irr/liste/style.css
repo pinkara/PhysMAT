@@ -31,7 +31,7 @@ body {
   background-size: cover;
 }
 .carousel .carousel-inner .bg1 {
-  background-image: url('approxi_sqrt.svg');
+  background-image: url('https://raw.githubusercontent.com/pinkara/PhysMAT/f7cbb36e91b6b3fcf2a19300b9ba96ec4f2de6be/image/verbes-irr.svg');
   background-position: center top;
 }
 .carousel .carousel-inner .bg2 {
