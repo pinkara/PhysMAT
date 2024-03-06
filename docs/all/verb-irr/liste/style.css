@@ -35,15 +35,30 @@ body {
   background-position: center top;
 }
 .carousel .carousel-inner .bg2 {
-  background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/158072/hearthand.jpg');
+  background-image: url('https://raw.githubusercontent.com/pinkara/PhysMAT/2335e379c0c7a5bf6b094a62a7dec149dd857849/image/carousel_test1.svg');
   background-position: center center;
 }
 .carousel .carousel-inner .bg3 {
-  background-image: url('https://raw.githubusercontent.com/pinkara/PhysMAT/2335e379c0c7a5bf6b094a62a7dec149dd857849/image/carousel_test1.svg');
+  background-image: url('https://raw.githubusercontent.com/pinkara/PhysMAT/b10e1a9add99ac44a2ac48b7f765cb0ceb7db3ca/image/carousel_test2.svg');
   background-position: center bottom;
 }
 .carousel .carousel-inner .bg4 {
-  background-image: url('https://raw.githubusercontent.com/pinkara/PhysMAT/65ca4b8450f27fe51bba64b6241a000b5a9d7ef2/image/carousel_test2.svg');
+  background-image: url('https://raw.githubusercontent.com/pinkara/PhysMAT/b10e1a9add99ac44a2ac48b7f765cb0ceb7db3ca/image/carousel_test3.svg');
   background-position: center bottom;
 }
-
+.carousel .carousel-inner .bg5 {
+  background-image: url('https://raw.githubusercontent.com/pinkara/PhysMAT/b10e1a9add99ac44a2ac48b7f765cb0ceb7db3ca/image/carousel_test4.svg');
+  background-position: center bottom;
+}
+.carousel .carousel-inner .bg6 {
+  background-image: url('https://raw.githubusercontent.com/pinkara/PhysMAT/b10e1a9add99ac44a2ac48b7f765cb0ceb7db3ca/image/carousel_test5.svg');
+  background-position: center bottom;
+}
+.carousel .carousel-inner .bg7 {
+  background-image: url('https://raw.githubusercontent.com/pinkara/PhysMAT/b10e1a9add99ac44a2ac48b7f765cb0ceb7db3ca/image/carousel_test6.svg');
+  background-position: center bottom;
+}
+.carousel .carousel-inner .bg8 {
+  background-image: url('https://raw.githubusercontent.com/pinkara/PhysMAT/b10e1a9add99ac44a2ac48b7f765cb0ceb7db3ca/image/carousel_test7.svg');
+  background-position: center bottom;
+}
